@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 31, 31);
+    height: 100vh;
+}
+
+.box{
+    background-color: rgb(152, 172, 165);
+    border: 5px black solid;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.box h3{
+    margin-left: 70px;
+    margin-right: auto;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo .conteudo-soma p{
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.box .inserir {
+    margin-top: 10px;
+    display: flex;
+}
+
+.box .inserir input{
+    width: 25px;
+}
+

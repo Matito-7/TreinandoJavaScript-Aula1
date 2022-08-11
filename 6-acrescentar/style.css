@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+.conteiner{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.caixa{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 4%;
+    box-shadow: 4px 4px rgba(00, 00, 00, 0.6);
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    width: 250px;
+}
+
+.cadastrar{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+#adicionar{
+    height: 30px;
+    width: 200px;
+    background: transparent;
+    border: none;
+    border-bottom: black 1px solid;
+    outline-style: none;
+}
+
+.mostrar{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 4%;
+    box-shadow: 4px 4px rgba(00, 00, 00, 0.6);
+    height: 250px;
+    width: 250px;
+}
